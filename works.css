@@ -1,0 +1,1597 @@
+/*This is for works content page*/
+.banner {
+    position: relative;
+    background-image: url(Works/img-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.banner-img {
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    top: 73px;
+    z-index: -20;
+    margin-bottom: 80px;
+}
+
+.banner-cap {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    left: 6%;
+    width: 88%;
+    margin: 120px 0 120px 0;
+}
+
+.banner-cap-left {
+    display: block;
+    width: 40%;
+    align-self:flex-start;
+}
+
+.banner-cap-right {
+    display: block;
+    width: 60%;
+    align-self: flex-start;
+}
+
+.banner-cap-right p {
+    margin: 0;
+}
+
+.gallery-img-3 {
+    width: 32.53%;
+    padding-top: 20%;
+    margin: 0.4%;
+}
+
+.gallery-img-half {
+    width: 50%;
+    padding-top: 50%;
+    margin: 0.4%;
+}
+.gallery-img-4 {
+    width: 23%;
+    padding-top: 17%;
+    margin: 0.5%;
+}
+.gallery-img-5 {
+    width: 19.2%;
+    padding-top: 14.25%;
+    margin: 0.4%;
+}
+
+.gallery-img-2 {
+    width: 49.2%;
+    padding-top: 65.6%;
+    margin: 0.4%;
+}
+
+.gallery-img-2-landscape {
+    width: 49.2%;
+    padding-top:32%;
+    margin: 0.4%;
+}
+.wrapper-img-text-1 {
+    width: 100%;
+    margin-bottom: 40px;
+}
+#no-btm-margin {
+    margin-bottom: 0;
+}
+
+.wrapper-img-text-2 {
+    width: 46%;
+    margin: 2%;
+}
+
+.wrapper-img-text-3 {
+    width: 32.53%;
+    margin: 0.4%;
+}
+.wrapper-img-text-5 {
+    width: 19%;
+    margin: 0.4%;
+}
+.wrapper-img-text-7 {
+    width: 13.57%;
+    margin: 0.3%;
+}
+
+.wrapper-img-text-4 {
+    width: 24%;
+    margin: 0.4%;
+}
+.wrapper-img{
+    position: relative;
+    margin: 0.4%;
+    padding-top: 4%;
+}
+
+.gallery-img-1 {
+    width: 100%;
+    padding-top: 56.25%;
+    margin: 0.4%;
+}
+
+
+.section {
+    display: block;
+    margin-bottom: 120px;
+}
+
+.section h1{
+    font-size: 1.5em;
+}
+
+.section p {
+    color: #868686;
+}
+
+.content-left{
+    width: 32%;
+    background-color: antiquewhite;
+}
+
+
+/*Arco*/
+#bg-img-1{
+    background-image: url(Works/Arco/bg1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#bg-img-2{
+    background-image: url(Works/Arco/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#bg-img-3{
+    background-image: url(Works/Arco/bg3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#bg-img-4{
+    background-image: url(Works/Arco/bg4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#bg-img-5{
+    background-image: url(Works/Arco/bg5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center; 
+}
+
+#gallery-margin {
+    margin: 60px 0 80px 0;
+}
+
+#test-img-1 {
+    background-image:url(Works/Arco/steam1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#test-img-2 {
+    background-image:url(Works/Arco/steam2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#test-img-3 {
+    background-image:url(Works/Arco/steam3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#test-img-4 {
+    background-image: url(Works/Arco/kerf-cutting1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#test-img-5 {
+    background-image:url(Works/Arco/kerf-cutting2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#test-img-6 {
+    background-image:url(Works/Arco/kerf-cutting3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#test-img-7 {
+    background-image: url(Works/Arco/lamination1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#test-img-8 {
+    background-image: url(Works/Arco/lamination2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#test-img-9 {
+    background-image: url(Works/Arco/lamination3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/*Arco*/
+
+
+
+.content-left{
+    width: 32%;
+    background-color: antiquewhite;
+}
+
+#sr-img-1 {
+    background-image: url(Works/Arco/sketch_Arco.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#sr-img-2 {
+    background-image: url(Works/Arco/Rendering_Arco.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#p-img-1, #p-img-2, #p-img-3, #p-img-4, #p-img-5, #p-img-6, #p-img-7, #p-img-8, #p-img-9 {
+    background-size: cover;
+    background-position: center;
+} 
+
+#p-img-1 {
+    background-image: url(Works/Arco/prototype_1.jpg);
+}
+#p-img-2 {
+    background-image: url(Works/Arco/prototype_2.jpg);
+}
+#p-img-3 {
+    background-image: url(Works/Arco/prototype_3.jpg);
+}
+#p-img-4 {
+    background-image: url(Works/Arco/Prototype_4.gif);
+}
+#p-img-5 {
+    background-image: url(Works/Arco/prototype_5.jpg);
+}
+
+#mockup-img-1 {
+    background-image: url(Works/Arco/assembling.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#mockup-img-2 {
+    background-image: url(Works/Arco/mockup-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#mockup-img-3 {
+    background-image: url(Works/Arco/mockup-2.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+
+
+#wrap-text h1 {
+    color: white;
+}
+
+/*PowerPoint*/
+#mockup-img-4 {
+    background-image: url(Works/img-5.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+#persona_1 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 400px;
+    background-image: url(Works/PowerPoint/persona_1.png);
+}
+#persona_2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 400px;
+    background-image: url(Works/PowerPoint/persona_2.jpg)
+}
+#persona_3 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 400px;
+    background-image: url(Works/PowerPoint/persona_3.png)
+}
+
+#progressive-img-1 {
+    background-image: url(Works/PowerPoint/progressive_1.png);
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+#progressive-img-2 {
+    background-image: url(Works/PowerPoint/progressive_2.png);
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.des {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#ppt-img-1 {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url(Works/PowerPoint/ppt-bg3.png);
+    padding-top: 9%;
+}
+#ppt-img-2 {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url(Works/PowerPoint/ppt-bg2.png);
+    padding-top: 11%;
+}
+#ppt-img-3 {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url(Works/PowerPoint/ppt-bg1.png);
+    padding-top: 8%;
+}
+
+#ia {
+    background-image: url(Works/PowerPoint/IA_1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*PowerPoint*/
+
+
+#cm-img-1 {
+    background-image: url(Works/PowerPoint/cm.png);
+    background-size: cover;
+    background-position: center;
+}
+#cm-img-2 {
+    background-image: url(Works/PowerPoint/cm_1.gif);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#sl-img-1 {
+    background-image: url(Works/PowerPoint/sl-ribbon.png);
+    background-size: cover;
+    background-position: center;
+    background-size: contain;
+    padding-top: 10%;
+    background-repeat: no-repeat;
+}
+
+#pane-img-1 {
+    background-image: url(Works/PowerPoint/pane.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 48%;
+    margin-bottom: 50px;
+}
+
+#pane-img-2 {
+    background-image: url(Works/PowerPoint/pane_2.gif);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*Rice Story*/
+#story-img-1,#story-img-2,#story-img-3,#story-img-4,#story-img-5,#story-img-6 {
+    background-size: cover;
+    background-position: center;
+    padding-top: 61.48%;
+}
+
+#story-img-1 {
+    background-image:url(Works/RiceStory/Story1.jpg);
+    
+}
+#story-img-2 {
+    background-image:url(Works/RiceStory/Story2.jpg);
+    outline: solid 2px #5252EF;
+}
+#story-img-3 {
+    background-image:url(Works/RiceStory/Story3.jpg);
+}
+#story-img-4 {
+    background-image:url(Works/RiceStory/Story4.jpg);
+}
+#story-img-5 {
+    background-image:url(Works/RiceStory/Story5.jpg);
+}
+#story-img-6 {
+    background-image:url(Works/RiceStory/Story6.jpg);
+}
+
+
+
+
+
+#rnd-img-1 {
+    background-image: url(Works/RiceStory/rnd_1.png);
+    background-size:contain;
+    background-position: center;
+    padding-top: 24%;
+    background-repeat: no-repeat;
+}
+
+#rnd-img-2 {
+    background-image: url(Works/RiceStory/rnd_2.png);
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 24%;
+}
+#rnd-img-3 {
+    position: relative;
+    width: 80%;
+    left: 10%;
+    background-image: url(Works/RiceStory/rnd_3.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 28%;
+}
+#rnd-img-4 {
+    background-image: url(Works/RiceStory/rnd_4.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 15%;
+    padding-top: 22%;
+    width: 70%;
+}
+#rnd-img-5 {
+    background-image: url(Works/RiceStory/rnd_5.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 2%;
+}
+
+#sm-img-1 {
+    background-image: url(Works/RiceStory/sm_1.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 70%;
+    left: 15%;
+}
+
+
+#sm-img-2 {
+    background-image: url(Works/RiceStory/sm_2.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#sm-img-3 {
+    background-image: url(Works/RiceStory/sm_3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#mb-img-1,#mb-img-2,#mb-img-3,#mb-img-4,#mb-img-5 {
+    background-size: cover;
+    background-position: center;
+}
+#mb-img-1 {
+    background-image: url(Works/RiceStory/moodboard1.png);
+}
+#mb-img-2 {
+    background-image: url(Works/RiceStory/moodboard2.png);
+}
+#mb-img-3 {
+    background-image: url(Works/RiceStory/moodboard3.png);
+}
+#mb-img-4 {
+    background-image: url(Works/RiceStory/moodboard4.png);
+}
+#mb-img-5 {
+    background-image: url(Works/RiceStory/moodboard5.png);
+}
+
+#b-img-1 {
+    background-image: url(Works/RiceStory/b_1.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#b-img-2 {
+    background-image: url(Works/RiceStory/b_2.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#b-img-3 {
+    position: absolute;
+    padding-bottom: 60%;
+    z-index: -2;
+    background-image: url(Works/RiceStory/b_3.png);
+    background-size: cover;
+    background-position: center;
+}
+#b-img-4 {
+    background-image: url(Works/RiceStory/b_4.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 60%;
+}
+#b-img-3 {
+    background-image: url(Works/RiceStory/b_3.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 13%;
+}
+
+
+
+.content-top {
+    position: relative;
+    margin-top: 50px;
+}
+
+#btm-margin {
+    margin-bottom: 50px;
+}
+
+#btm-margin-huge {
+    margin-bottom: 100px;
+}
+
+
+
+#poster-img-1 {
+    background-image: url(Works/RiceStory/pos1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 40%;
+}
+
+#poster-img-2 {
+    background-image: url(Works/RiceStory/pos2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#poster-img-3 {
+    background-image: url(Works/RiceStory/pos3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#poster-img-4 {
+    background-image: url(Works/RiceStory/poster.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 66%;
+}
+
+#story-img-7,#story-img-8,#story-img-9,#story-img-10,#story-img-11,#story-img-12 {
+    background-size: cover;
+    background-position: center;
+    padding-top: 61.48%;
+}
+
+#story-img-7 {
+    background-image: url(Works/RiceStory/new_1.jpg);
+}
+#story-img-8 {
+    background-image: url(Works/RiceStory/new_2.jpg);
+}
+#story-img-9 {
+    background-image: url(Works/RiceStory/new_3.jpg);
+}
+#story-img-10 {
+    background-image: url(Works/RiceStory/new_4.jpg);
+}
+#story-img-11 {
+    background-image: url(Works/RiceStory/new_5.jpg);
+}
+#story-img-12 {
+    background-image: url(Works/RiceStory/new_6.jpg);
+}
+
+/*THFoodLab*/
+#thbg-img-1 {
+    background-image: url(Works/THFoodLab/bg_1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 62%;
+    
+}
+
+#thbg-img-2 {
+    background-image: url(Works/THFoodLab/bg_3.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 62%;
+}
+
+#thbg-img-3 {
+    background-image: url(Works/THFoodLab/bg_2.png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 40%;
+}
+
+#th-rnd-img-1, #th-rnd-img-2 {
+    background-size: cover;
+    background-position: center;
+    padding-top: 20%;
+    margin: 0;
+}
+
+
+
+#th-rnd-img-1 {
+    background-image: url(Works/THFoodLab/rnd_1.jpg);
+}
+
+
+#th-rnd-img-2 {
+    background-image: url(Works/THFoodLab/rnd_2.jpg);
+}
+
+#th-rnd-img-3 {
+    background-image: url(Works/THFoodLab/rnd_3.png);
+    background-size: contain;
+    background-position: center;
+    padding-top: 100%;
+    background-repeat: no-repeat;
+}
+#th-rnd-img-4 {
+    background-image: url(Works/THFoodLab/rnd_4.png);
+    background-size: contain;
+    background-position: center;
+    padding-top: 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+.dot {
+    width: 11px;
+    height: 11px;
+    background-color: #5252EF;
+    border-radius: 7px;
+}
+
+.line {
+    position: absolute;
+    bottom: 5px;
+    width: 60%;
+    height: 1px;
+    background-color: #5252EF;
+    left:10px;
+}
+
+#top-line {
+    left: 0;
+    width: 100%;
+    background-color: #E0E0E0;
+}
+
+#placeholder {
+    padding-top: 0;
+}
+
+.insights {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.1em;
+    font-style: italic;
+    font-weight: 500;
+    color: #868686;
+}
+#color-b {
+    color: black;
+}
+
+#th-con-img-1,#th-con-img-2,#th-con-img-3,#th-con-img-4 {
+    position: relative;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 20%;
+    width: 40%;
+    left: 10%;
+    margin: 0;
+}
+
+#th-con-img-1 {
+    background-image: url(Works/THFoodLab/concept_1.jpg);
+}
+
+#th-con-img-2 {
+    background-image: url(Works/THFoodLab/concept_2.png);
+}
+
+#th-con-img-3 {
+    background-image: url(Works/THFoodLab/concept_3.jpg);
+}
+#th-con-img-4 {
+    background-image: url(Works/THFoodLab/concept_4.jpg);
+}
+#th-con-img-5 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 30%;
+    background-image: url(Works/THFoodLab/concept_5.png);
+}
+#th-con-img-6 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 70%;
+    position: relative;
+    left: 6%;
+    width: 88%;
+    background-image: url(Works/THFoodLab/concept_6.png);
+}
+
+.th-highlight {
+    color: #EA5F55;
+}
+
+#th-con-img-7 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 16%;
+    background-image: url(Works/THFoodLab/concept_7.png);
+}
+
+#th-sd-img-1,#th-sd-img-2,#th-sd-img-3{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#th-sd-img-1 {
+    background-image: url(Works/THFoodLab/space1.png);
+}
+
+#th-sd-img-2 {
+    background-image: url(Works/THFoodLab/space2.png);
+}
+
+#th-sd-img-3 {
+    background-image: url(Works/THFoodLab/space3.png);
+}
+
+#th-app-img-1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 100%;
+    background-image: url(Works/THFoodLab/app1.jpg);
+}
+
+#th-app-img-2 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 12%;
+    background-image: url(Works/THFoodLab/app2.jpg);
+}
+#th-hifi-img-00 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top:32%;
+    background-image: url(Works/THFoodLab/hifi_01.png);
+}
+#th-hifi-img-01 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top:32%;
+    background-image: url(Works/THFoodLab/hifi_02.png);
+}
+#th-hifi-img-02 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top:32%;
+    background-image: url(Works/THFoodLab/hifi_03.png);
+}
+#th-hifi-img-03 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top:32%;
+    background-image: url(Works/THFoodLab/hifi_04.png);
+}
+
+
+.icon {
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-text {
+    width: 80%;
+}
+
+#icon-1 {
+    background-image: url(Works/THFoodLab/hifi1.png);
+}
+#icon-2 {
+    background-image: url(Works/THFoodLab/hifi3.png);
+}
+#icon-3 {
+    background-image: url(Works/THFoodLab/hifi4.png);
+}
+
+#th-hifi-img-1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top:32%;
+    width: 20%;
+    position: relative;
+    left: 5%;
+    background-image: url(Works/THFoodLab/hifi9.gif);
+}
+
+#th-hifi-img-2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top:32%;
+    width: 70%;
+    position: relative;
+    left: 5%;
+    background-image: url(Works/THFoodLab/hifi5.png);
+}
+#th-hifi-img-3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top:32%;
+    width: 20%;
+    position: relative;
+    left: 17%;
+    background-image: url(Works/THFoodLab/hifi12.gif);
+}
+#th-hifi-img-4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top:32%;
+    width: 36%;
+    position: relative;
+    left: 17%;
+    background-image: url(Works/THFoodLab/hifi6.png);
+}
+
+#th-hifi-img-5 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top:32%;
+    width: 20%;
+    position: relative;
+    left: 17%;
+    background-image: url(Works/THFoodLab/hifi11.gif);
+}
+#th-hifi-img-6 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top:32%;
+    width: 36%;
+    position: relative;
+    left: 17%;
+    background-image: url(Works/THFoodLab/hifi7.png);
+}
+
+#th-wf-img-0 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 12%;
+    background-image: url(Works/THFoodLab/wf_3.png);
+}
+
+#th-wf-img-1,#th-wf-img-2 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 20%;
+}
+
+#th-wf-img-1 {
+    background-image: url(Works/THFoodLab/wf_1.png);
+}
+
+#th-wf-img-2 {
+    background-image: url(Works/THFoodLab/wf_2.png);
+}
+
+#th-wf-img-3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 50%;
+    background-image: url(Works/THFoodLab/wf_5.png);
+}
+#th-wf-img-4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(Works/THFoodLab/wf_4.png);
+}
+
+#th-p-img-1,#th-p-img-2,#th-p-img-3 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#th-p-img-1 {
+    background-image: url(Works/THFoodLab/promo_1.jpg);
+}
+#th-p-img-2 {
+    background-image: url(Works/THFoodLab/promo_2.jpg);
+}
+#th-p-img-3 {
+    background-image: url(Works/THFoodLab/promo_3.jpg);
+}
+
+
+#th-sd-img-4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 32%;
+    background-image: url(Works/THFoodLab/space4.png);
+}
+
+
+#center-2 {
+    position: relative;
+    left: 17%;
+}
+
+
+
+/*the Stool*/
+#ts-img-3 {
+    background-size: contain;
+    background-image: url(/Works/img-8.jpg);
+}
+
+/*the stool*/
+#ts-img-1 {
+    background-image: url(Works/img-8.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#ts-img-2 {
+    background-image: url(Works/theStool/st_1.png);
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+/*BruxNoMore*/
+
+#bnm-bg-img-1 {
+    background-size: cover;
+    background-position: center;
+    padding-top: 61.48%;
+    background-image:url(Works/BruxNoMore/bg-2.jpg);
+}
+#bnm-bg-img-2 {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 61.48%;
+    background-image:url(Works/BruxNoMore/bg-1.png);
+}
+#bnm-bg-img-3,#bnm-bg-img-4,#bnm-bg-img-5 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 61.48%;
+    background-image:url(Works/BruxNoMore/bg-1.png);
+}
+#bnm-bg-img-3 {
+    background-image:url(Works/BruxNoMore/bg-3.png);
+}
+#bnm-bg-img-4 {
+    background-image:url(Works/BruxNoMore/bg-4.png);
+}
+#bnm-bg-img-5 {
+    background-image:url(Works/BruxNoMore/bg-5.png);
+}
+
+#bnm-bg-img-6 {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 30%;
+    background-image:url(Works/BruxNoMore/bg-6.png);
+}
+
+#bnm-bg-img-7 {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 30%;
+    background-image:url(Works/BruxNoMore/bg-7.png);
+}
+
+
+.text-center {
+    text-align: center;
+}
+.color-block {
+    color: white;
+    padding: 10px 0 10px 0;
+    background-color: #5252EF;
+    border-radius: 10px;
+}
+.color-block-b {
+    color: white;
+    padding: 10px 0 10px 0;
+    background-color: black;
+    border-radius: 10px;
+}
+
+#bnm-rnd-img-1 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(Works/BruxNoMore/rnd-1.jpg);
+    padding-top: 36%;
+}
+#bnm-rnd-img-2,#bnm-rnd-img-3,#bnm-rnd-img-4 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 61.48%;
+}
+#bnm-rnd-img-2 {
+    background-position: top;
+    background-image:url(Works/BruxNoMore/rnd-2.jpg);
+}
+#bnm-rnd-img-3 {
+    background-image:url(Works/BruxNoMore/rnd-3.jpg);
+}
+#bnm-rnd-img-4 {
+    background-image:url(Works/BruxNoMore/rnd-4.png);
+}
+
+
+
+#bnm-rnd-img-6,#bnm-rnd-img-7 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 80%;
+}
+#bnm-rnd-img-5 {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(Works/BruxNoMore/rnd-5.png);
+    padding-top: 20%;
+}
+
+
+#bnm-rnd-img-6 {
+    background-image: url(Works/BruxNoMore/rnd-6.png);
+}
+#bnm-rnd-img-7 {
+    background-image: url(Works/BruxNoMore/rnd-7.png);
+}
+
+#bnm-rnd-img-8,#bnm-rnd-img-9,#bnm-rnd-img-10 {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 55%;
+}
+#bnm-rnd-img-8 {
+    background-image:url(Works/BruxNoMore/rnd-8.png);
+}
+#bnm-rnd-img-9 {
+    background-image:url(Works/BruxNoMore/rnd-9.png);
+}
+#bnm-rnd-img-10 {
+    background-image:url(Works/BruxNoMore/rnd-10.png);
+}
+
+#no-margin {
+    margin-top: 20px;
+}
+
+#bnm-persona_1 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 400px;
+    background-image: url(Works/BruxNoMore/rnd-11.jpg);
+}
+
+#bnm-rnd-img-12 {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(Works/BruxNoMore/rnd-12-1.png);
+    padding-top: 40%;
+}
+
+#bnm-ic-img-1 {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(Works/BruxNoMore/ic-1.jpg);
+    padding-top: 70%;
+}
+#bnm-ic-img-2 {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(Works/BruxNoMore/ic-2.png);
+    padding-top: 62%;
+}
+
+.wrapper-img-text-6 {
+    width: 15.86%;
+    margin: 0.4%;
+}
+
+#bnm-mp-img-1,#bnm-mp-img-2,#bnm-mp-img-3,#bnm-mp-img-4,#bnm-mp-img-5,#bnm-mp-img-6,#bnm-mp-img-7,#bnm-mp-img-8,#bnm-mp-img-9,#bnm-mp-img-10,#bnm-mp-img-11 {
+    background-size: cover;
+    background-position: center;
+    padding-top: 61.48%;
+}
+#bnm-mp-img-1 {
+    background-image:url(Works/BruxNoMore/mp-1.jpg);
+}
+#bnm-mp-img-2 {
+    background-image:url(Works/BruxNoMore/mp-2.jpg);
+}
+#bnm-mp-img-3 {
+    background-image:url(Works/BruxNoMore/mp-3.jpg);
+}
+#bnm-mp-img-4 {
+    background-image:url(Works/BruxNoMore/mp-4.jpg);
+}
+#bnm-mp-img-5 {
+    background-image:url(Works/BruxNoMore/mp-5.jpg);
+}
+#bnm-mp-img-6 {
+    background-image:url(Works/BruxNoMore/mp-6.jpg);
+}
+#bnm-mp-img-7 {
+    background-image:url(Works/BruxNoMore/mp-7.jpg);
+}
+#bnm-mp-img-8 {
+    background-image:url(Works/BruxNoMore/mp-8.jpg);
+}
+#bnm-mp-img-9 {
+    background-image:url(Works/BruxNoMore/mp-9.jpg);
+}
+#bnm-mp-img-10 {
+    background-image:url(Works/BruxNoMore/mp-10.jpg);
+}
+#bnm-mp-img-11 {
+    background-image:url(Works/BruxNoMore/mp-11.jpg);
+}
+
+#bnm-mp-img-12 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(Works/BruxNoMore/mp-12.png);
+    padding-top: 50%;
+}
+
+#bnm-mp-img-13,#bnm-mp-img-14,#bnm-mp-img-15 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    padding-top: 60%;
+}
+
+#bnm-mp-img-13 {
+    background-image: url(Works/BruxNoMore/mp-13.jpg);
+}
+
+#bnm-mp-img-14 {
+    background-image: url(Works/BruxNoMore/mp-14.jpg);
+}
+#bnm-mp-img-15 {
+    background-image: url(Works/BruxNoMore/mp-15.jpg);
+}
+
+#bnm-app-img-1 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(Works/BruxNoMore/app-1.png);
+    padding-top: 68%;
+}
+#bnm-app-img-2 {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(Works/BruxNoMore/app-2.png);
+    padding-top: 62%;
+}
+#bnm-app-img-3 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(Works/BruxNoMore/app-3.jpg);
+    padding-top: 40%;
+}
+
+#bnm-story-img-1,#bnm-story-img-2,#bnm-story-img-3,#bnm-story-img-4,#bnm-story-img-5,#bnm-story-img-6,#bnm-story-img-7,#bnm-story-img-8,#bnm-story-img-9,#bnm-story-img-10,#bnm-story-img-11,#bnm-story-img-12,#bnm-story-img-13 {
+    background-size: cover;
+    background-position: center;
+    padding-top: 61.48%;
+}
+
+#bnm-story-img-1 {
+    background-image: url(Works/BruxNoMore/story-1.png);
+}
+#bnm-story-img-2 {
+    background-image: url(Works/BruxNoMore/story-2.png);
+}
+#bnm-story-img-3 {
+    background-image: url(Works/BruxNoMore/story-3.png);
+}
+#bnm-story-img-4 {
+    background-image: url(Works/BruxNoMore/story-4.png);
+}
+#bnm-story-img-5 {
+    background-image: url(Works/BruxNoMore/story-05.png);
+}
+#bnm-story-img-6 {
+    background-image: url(Works/BruxNoMore/story-5.png);
+}
+#bnm-story-img-7 {
+    background-image: url(Works/BruxNoMore/story-6.png);
+}
+#bnm-story-img-8 {
+    background-image: url(Works/BruxNoMore/story-8.png);
+}
+#bnm-story-img-9 {
+    background-image: url(Works/BruxNoMore/story-9.png);
+}
+#bnm-story-img-10 {
+    background-image: url(Works/BruxNoMore/story-10.png);
+}
+#bnm-story-img-11 {
+    background-image: url(Works/BruxNoMore/story-11.png);
+}
+#bnm-story-img-12 {
+    background-image: url(Works/BruxNoMore/story-12.png);
+}
+#bnm-story-img-13 {
+    background-image: url(Works/BruxNoMore/story-13.png);
+}
+
+
+#bnm-app-img-4 {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(Works/BruxNoMore/app-4.png);
+    padding-top: 40%;
+}
+#bnm-app-img-5 {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(Works/BruxNoMore/app-5.png);
+    padding-top: 40%;
+}
+#bnm-app-img-6 {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(Works/BruxNoMore/app-6.png);
+    padding-top: 40%;
+}
+#bnm-app-img-7 {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(Works/BruxNoMore/app-7.png);
+    padding-top: 40%;
+}
+
+#color {
+    color: #868686;
+}
+
+/*miao*/
+#miao-bg-img-1 {
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url(Works/Miao/bg-1.JPG);
+    padding-top: 40%;
+}
+#miao-bg-img-2 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(Works/Miao/bg-3.JPG);
+    padding-top: 60%;
+}
+
+#miao-bg-img-4 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(Works/Miao/bg-4.JPG);
+    padding-top: 60%;
+}
+#miao-bg-img-4 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(Works/Miao/bg-4.jpg);
+}
+
+#miao-bg-img-3 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(Works/Miao/bg-2.JPG);
+    padding-top: 60%;
+}
+
+#miao-sketch-img-1 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(Works/Miao/sketch-0.jpg);
+    padding-top: 20%;
+}
+
+#miao-sketch-img-2,#miao-sketch-img-3,#miao-sketch-img-4,#miao-sketch-img-5,#miao-sketch-img-6,#miao-sketch-img-7,#miao-sketch-img-8 {
+    background-size: cover;
+    background-position: center;
+    padding-top: 61.48%;
+}
+
+#miao-sketch-img-2 {
+    background-image: url(Works/Miao/sketch-1.jpg);
+}
+#miao-sketch-img-3 {
+    background-image: url(Works/Miao/sketch-2.jpg);
+}
+#miao-sketch-img-4 {
+    background-image: url(Works/Miao/sketch-3.jpg);
+}
+
+#miao-sketch-img-5 {
+    background-image: url(Works/Miao/sketch-4.jpg);
+}
+#miao-sketch-img-6 {
+    background-image: url(Works/Miao/sketch-5.jpg);
+}
+#miao-sketch-img-7 {
+    background-image: url(Works/Miao/sketch-6.jpg);
+}
+#miao-sketch-img-8 {
+    background-image: url(Works/Miao/sketch-7.jpg);
+}
+
+
+#miao-idea-img-1 {
+    background-size: contain;
+    background-position: center;
+    padding-top: 56%;
+    background-repeat: no-repeat;
+    background-image: url(Works/Miao/idea-1.jpg);
+}
+#miao-idea-img-2 {
+    background-size: contain;
+    background-position: center;
+    padding-top: 56%;
+    background-repeat: no-repeat;
+    background-image: url(Works/Miao/idea-2.jpg);
+}
+#miao-idea-img-3,#miao-idea-img-4,#miao-idea-img-5 {
+    background-size: contain;
+    background-position: center;
+    padding-top: 80%;
+    background-repeat: no-repeat;
+}
+
+#miao-idea-img-3 {
+    background-image: url(Works/Miao/form.png);
+}
+#miao-idea-img-4 {
+    background-image: url(Works/Miao/pattern.png);
+}
+#miao-idea-img-5 {
+    background-image: url(Works/Miao/color.png);
+}
+
+#landscape {
+    width: 49.2%;
+    margin: 0.4%;
+}
+
+#miao-making-img-1 {
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url(Works/Miao/making-1.jpg);
+    padding-top: 30%;
+}
+
+#miao-making-img-2,#miao-making-img-3,#miao-making-img-4 {
+    background-size: cover;
+    background-position: center;
+    padding-top: 60%;
+}
+#miao-making-img-2 {
+    background-image: url(Works/Miao/making-2.jpg);
+}
+#miao-making-img-3 {
+    background-image: url(Works/Miao/making-3.jpg);
+}
+#miao-making-img-4 {
+    background-image: url(Works/Miao/making-6.jpg);
+}
+
+#miao-making-img-5,#miao-making-img-6,#miao-making-img-7,#miao-making-img-8 {
+    background-size: cover;
+    background-position: center;
+    padding-top: 60%;
+}
+#miao-making-img-5{
+    background-image: url(Works/Miao/making-4.jpg);
+}
+#miao-making-img-6{
+    background-image: url(Works/Miao/making-7.gif);
+}
+#miao-making-img-7{
+    background-image: url(Works/Miao/making-5.jpg);
+}
+#miao-making-img-8{
+    background-image: url(Works/Miao/making-9.jpg);
+}
+
+#miao-showcase-img-2,#miao-showcase-img-3,#miao-showcase-img-4,#miao-showcase-img-5,#miao-showcase-img-6,#miao-showcase-img-7,#miao-showcase-img-8 {
+    background-size: cover;
+    background-position: center;
+    padding-top: 100%;
+}
+#miao-showcase-img-2 {
+    background-image: url(Works/Miao/showcase-1.png);
+}
+#miao-showcase-img-3 {
+    background-image: url(Works/Miao/showcase-2.png);
+}
+#miao-showcase-img-4 {
+    background-image: url(Works/Miao/showcase-3.png);
+}
+#miao-showcase-img-5 {
+    background-image: url(Works/Miao/showcase-4.png);
+}
+#miao-showcase-img-6 {
+    background-image: url(Works/Miao/showcase-5.png);
+}
+#miao-showcase-img-7 {
+    background-image: url(Works/Miao/showcase-6.png);
+}
+#miao-showcase-img-8 {
+    background-image: url(Works/Miao/showcase-7.png);
+}
+
+#miao-showcase-img-9 {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(Works/Miao/showcase-8.png);
+    padding-top: 30%;
+}
+
+/*project X*/
+#px-img-1, #px-img-2, #px-img-3, #px-img-4, #px-img-5, #px-img-6, #px-img-7, #px-img-8,#px-img-9 {
+    background-size: contain;
+    padding-top: 32.53%;
+}
+#px-img-1 {
+    background-image: url(Works/ProjectX/01.gif);
+}
+#px-img-2 {
+    background-image: url(Works/ProjectX/02.gif);
+}
+#px-img-3 {
+    background-image: url(Works/ProjectX/03.gif);
+}
+#px-img-4 {
+    background-image: url(Works/ProjectX/04.jpg);
+}
+
+#px-img-5 {
+    background-image: url(Works/ProjectX/05.jpg);
+}
+
+#px-img-6 {
+    background-image: url(Works/ProjectX/06.jpg);
+}
+#px-img-7 {
+    background-image: url(Works/ProjectX/07.jpg);
+}
+#px-img-8 {
+    background-image: url(Works/ProjectX/08.jpg);
+}
+#px-img-9 {
+    background-image: url(Works/ProjectX/09.jpg);
+}
+
