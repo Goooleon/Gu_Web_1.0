@@ -343,7 +343,7 @@ footer {
     display: block;
   color: black;
   text-align: center;
-  padding: 0px 12px 0px 0px;
+  margin: 0px 12px 0px 0px;
   text-decoration: none;
     font-size: 0.75em;  
 }
@@ -455,8 +455,18 @@ footer {
     position: relative;
     display: block;
     width: 430px;
-    height: 430px;
+    padding-top: 80%;
     margin: 0 40px 0 40px;
+}
+
+@media only screen and (max-width: 414px) {
+.left-img {
+    position: relative;
+    display: block;
+    width: 430px;
+    padding-top: 70%;
+    margin: 0 40px 0 40px;
+}
 }
 
 #img-1, #img-2, #img-3, #img-4, #img-5, #img-6, #img-7, #img-8 {
@@ -520,6 +530,12 @@ footer {
     display: block;
     width: 40%;
     align-self: flex-end;
+}
+@media only screen and (max-width: 1024px) {
+.left-text {
+    margin-top: 28px;
+    width: 76%;
+}
 }
 
 
