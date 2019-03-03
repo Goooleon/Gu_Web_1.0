@@ -107,7 +107,7 @@ h2 {
   display: block;
   color: #868686;
   text-align: center;
-  padding-left: 50px;
+  margin-left: 50px;
   text-decoration: none;
     font-family: 'Muli', sans-serif;
     font-weight: 600;
@@ -139,6 +139,8 @@ h2 {
     color: #F25165;
     font-weight: 700;
 }
+
+
 
 
 /* Index Page */
@@ -232,6 +234,27 @@ h2 {
     background-attachment: fixed;
 }
 
+@media only screen and (max-width: 768px) {
+.cover-text {
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    bottom: 8%;
+    padding: 0;
+    background-attachment: fixed;
+}
+h1 {
+    font-size: 2em;
+    letter-spacing: 0.15em;
+}
+    
+#white-text {
+    letter-spacing: 0.4em;
+
+}
+    
+}
+
 #white-text {
     color: white;
     margin-top: 100px;
@@ -257,14 +280,17 @@ h2 {
     height: 50px;
 }
 
-.btn a {
+#cv {
+    text-decoration: none;
+}
+
+#cv-link {
     position: relative;
     display: block;
     text-align: center;
     top: 50%;
     transform: translateY(-50%); 
     color: white;
-    text-decoration: none;
 }
 
 
@@ -277,7 +303,6 @@ h2 {
 
 
 /* btm css */
-
 footer {
     display: flex;
     flex-wrap: wrap;
@@ -339,6 +364,35 @@ footer {
     text-align: right;
 }
 
+@media only screen and (max-width: 768px) {
+ footer {
+    display:block;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+
+.btm-right {
+    float: none;
+    margin-top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+    
+.btm-right p {
+    text-align: center;
+}
+    
+.btm-left {
+    left: 50%;
+    transform: translateX(-50%);
+}
+    
+}
+
+
+/* btm css */
 
 
 
@@ -522,7 +576,7 @@ footer {
 #sketch-holder {
     position: absolute;
     left: 50%;
-    top: 20%;
+    top: 15%;
     width: 500px;
     height: 500px;
 }
