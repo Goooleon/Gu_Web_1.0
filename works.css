@@ -11,14 +11,14 @@
 
 .banner-img {
     position: relative;
-    background-attachment: fixed;
+    background-image: url(aa.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     width: 100%;
-    padding-top: 500px;
-    top: 73px;
+    height:  60vh;
+    top:  73px;
     z-index: -20;
-    margin-bottom: 80px;
 }
 
 .banner-cap {

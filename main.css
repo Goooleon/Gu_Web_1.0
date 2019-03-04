@@ -417,13 +417,16 @@ footer {
 
 
 .tab{
-    display: block;
     position: relative;
     margin: 120px 0 100px 0;
-    
+    padding: 10px;
 }
 
+
 .tab ul {
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     list-style:none;
     margin:0;
     padding:0;
@@ -431,21 +434,23 @@ footer {
 }
 
 .tab ul li {
+    float: none;
     display:inline;
-    padding: 12px;
+    margin: 10px;
     cursor: pointer;
 }
+
 
 .tab ul li a {
     display:inline-block;
     font-family: 'Muli', sans-serif;
     font-weight: 600;
     text-decoration: none;
-    padding: 20px;
+    padding: 6px 12px 6px 12px;
 }
 
 .tab-on {
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: #5252EF;
     color: white;
 }
@@ -455,17 +460,14 @@ footer {
     position: relative;
     display: block;
     width: 430px;
-    padding-top: 80%;
-    margin: 0 40px 0 40px;
+    padding-top: 100%;
 }
+
 
 @media only screen and (max-width: 414px) {
 .left-img {
-    position: relative;
-    display: block;
-    width: 430px;
-    padding-top: 70%;
-    margin: 0 40px 0 40px;
+    width: 100vw;
+    padding-top: 100vw;
 }
 }
 
@@ -530,6 +532,7 @@ footer {
     display: block;
     width: 40%;
     align-self: flex-end;
+    margin: 0 40px 0 40px;
 }
 @media only screen and (max-width: 1024px) {
 .left-text {
