@@ -1,19 +1,39 @@
 var yoff = 0.0;
 
-function setup() {
-  var canvas = createCanvas(500, 500);
+//function setup() {
+
+// var canvas = createCanvas(300, 300);
 
   // Move the canvas so it's inside our <div id="sketch-holder">.
-  canvas.parent('sketch-holder');
+  //canvas.parent('sketch-holder');
+    
+    
+function centerCanvas() {
+  var x = (windowWidth - width) / 2;
+  var y = (windowHeight - height) / 2;
+  cnv.position(50,120);
+    cnv.style('z-index', '-10');
 }
+
+function setup() {
+  cnv = createCanvas(windowWidth-100, windowHeight-200);
+  centerCanvas();
+    cnv.style = ""
+}
+    
+function windowResized() {
+    resizeCanvas(windowWidth-100, windowHeight-200);
+}
+    
+//}
 
 function draw() {
     background(251,251,251);
     noFill();
     strokeWeight(8);
-  translate(width / 2, height / 2);
+    translate(width/2, height/2);
 
-  var radius = 150;
+  var radius = 120;
 
   beginShape();
   var xoff = 0;
