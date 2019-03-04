@@ -105,6 +105,15 @@
     width: 32.53%;
     margin: 0.4%;
 }
+@media only screen and (max-width: 414px) {
+    #mobile-3 {
+        width: 49.2%;
+    }
+    #mobile-3-full {
+        width: 100%;
+    }
+    
+}
 .wrapper-img-text-5 {
     width: 19%;
     margin: 0.4%;
@@ -176,6 +185,15 @@
     background-size: cover;
     background-position: center;
 }
+#mobile-icon{
+    width: 100px;
+}
+@media only screen and (max-width: 414px) {
+#mobile-icon{
+    width: 70px;
+}
+}
+
 
 .gallery {
     display: flex;
@@ -252,11 +270,23 @@
     background-size: cover;
     background-position: center;
 }
+@media only screen and (max-width: 414px) {
+#sr-img-1, #sr-img-2 {
+    width: 100%;
+    padding-top: 140%;
+}
+}
 
 #p-img-1, #p-img-2, #p-img-3, #p-img-4, #p-img-5, #p-img-6, #p-img-7, #p-img-8, #p-img-9 {
     background-size: cover;
     background-position: center;
 } 
+@media only screen and (max-width: 414px) {
+    #p-img-4 ,#p-img-5{
+        width: 100%;
+        padding-top: 50%;
+    }
+}
 
 #p-img-1 {
     background-image: url(Works/Arco/prototype_1.jpg);
@@ -284,6 +314,12 @@
     background-image: url(Works/Arco/mockup-1.jpg);
     background-size: cover;
     background-position: center;
+}
+@media only screen and (max-width: 414px) {
+    #mockup-img-1, #mockup-img-2{
+        width: 100%;
+        padding-top: 140%;
+    }
 }
 
 #mockup-img-3 {
@@ -343,17 +379,44 @@
     height: 400px;
     background-image: url(Works/PowerPoint/persona_3.png)
 }
+@media only screen and (max-width: 414px) {
+    #persona_1 {
+        width: 300px;
+        height: 300px;
+    }
+    #persona_2 {
+        width: 300px;
+        height: 300px;
+    }
+    #persona_3 {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+
 
 #progressive-img-1 {
     background-image: url(Works/PowerPoint/progressive_1.png);
     background-size: contain;
-    background-position: bottom;
+    background-position: center;
     background-repeat: no-repeat;
+}
+@media only screen and (max-width: 414px) {
+#progressive-img-1 {
+    width: 100%;
+    padding-top: 80%;
+    background-size: cover;
+}
+#progressive-img-2 {
+    width: 100%;
+    padding-top: 80%;
+}
 }
 #progressive-img-2 {
     background-image: url(Works/PowerPoint/progressive_2.png);
     background-size: contain;
-    background-position: bottom;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -397,6 +460,17 @@
     background-image: url(Works/PowerPoint/cm.png);
     background-size: cover;
     background-position: center;
+}
+@media only screen and (max-width: 414px) {
+    #cm-img-1 {
+        width: 100%;
+        padding-top: 60%;
+        margin-bottom: 50px;
+    }
+    #cm-img-2 {
+    width: 100%;
+    padding-top: 60%
+    }
 }
 #cm-img-2 {
     background-image: url(Works/PowerPoint/cm_1.gif);
@@ -470,12 +544,19 @@
     background-repeat: no-repeat;
 }
 
+
 #rnd-img-2 {
     background-image: url(Works/RiceStory/rnd_2.png);
     background-size:contain;
     background-position: center;
     background-repeat: no-repeat;
     padding-top: 24%;
+}
+
+@media only screen and (max-width: 414px) {
+    #rnd-img-1,#rnd-img-2 {
+        padding-top: 50%;
+    }
 }
 #rnd-img-3 {
     position: relative;
@@ -526,6 +607,20 @@
     background-image: url(Works/RiceStory/sm_3.jpg);
     background-size: cover;
     background-position: center;
+}
+@media only screen and (max-width: 414px) {
+#sm-img-1 {
+    width: 100%;
+    left: 0;
+    }
+#sm-img-2 {
+    padding-top:60%;
+    width: 100%;
+}
+#sm-img-3 {
+    width: 100%;
+    padding-top: 70%;
+}
 }
 
 #mb-img-1,#mb-img-2,#mb-img-3,#mb-img-4,#mb-img-5 {
@@ -684,6 +779,13 @@
     padding-top: 20%;
     margin: 0;
 }
+@media only screen and (max-width: 414px) {
+    #th-rnd-img-1, #th-rnd-img-2{
+        width: 100%;
+        padding-top: 40%;
+    }
+}
+
 
 
 
@@ -710,6 +812,15 @@
     padding-top: 100%;
     background-repeat: no-repeat;
 }
+@media only screen and (max-width: 414px) {
+    #mobile-2 {
+        width: 100%;
+    }
+    #mobile-4 {
+        width: 32.26%;
+    }
+}
+
 
 
 
@@ -759,6 +870,13 @@
     width: 40%;
     left: 10%;
     margin: 0;
+}
+@media only screen and (max-width: 414px) {
+    #th-con-img-1,#th-con-img-2,#th-con-img-3,#th-con-img-4 {
+        width: 100%;
+        left: 0;
+        padding-top: 50%;
+    }
 }
 
 #th-con-img-1 {
@@ -810,6 +928,13 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+@media only screen and (max-width: 414px) {
+
+    #th-sd-img-1,#th-sd-img-2,#th-sd-img-3{
+        width: 100%;
+        padding-top: 40%;
+    }
+}
 
 #th-sd-img-1 {
     background-image: url(Works/THFoodLab/space1.png);
@@ -838,6 +963,12 @@
     padding-top: 12%;
     background-image: url(Works/THFoodLab/app2.jpg);
 }
+@media only screen and (max-width: 414px) {
+#th-app-img-2 {
+    padding-top: 32%;
+}
+}
+
 #th-hifi-img-00 {
     background-size: contain;
     background-repeat: no-repeat;
@@ -900,6 +1031,7 @@
     background-image: url(Works/THFoodLab/hifi9.gif);
 }
 
+
 #th-hifi-img-2 {
     background-size: contain;
     background-repeat: no-repeat;
@@ -941,6 +1073,7 @@
     left: 17%;
     background-image: url(Works/THFoodLab/hifi11.gif);
 }
+
 #th-hifi-img-6 {
     background-size: contain;
     background-repeat: no-repeat;
@@ -950,6 +1083,20 @@
     position: relative;
     left: 17%;
     background-image: url(Works/THFoodLab/hifi7.png);
+}
+@media only screen and (max-width: 414px) {
+#th-hifi-img-1,#th-hifi-img-2,#th-hifi-img-3,#th-hifi-img-5 {
+    width: 100%;
+    left: 0;
+    padding-top: 100%;
+}
+    
+    #th-hifi-img-4,#th-hifi-img-6 {
+    width: 100%;
+    left: 0;
+    padding-top: 60%;
+        margin: 60px 0 60px 0;
+    }
 }
 
 #th-wf-img-0 {
@@ -994,6 +1141,13 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+@media only screen and (max-width: 414px) {
+    #th-p-img-1,#th-p-img-2{
+        width: 100%;
+        padding-top: 56.2%;
+    }
+}
+
 
 #th-p-img-1 {
     background-image: url(Works/THFoodLab/promo_1.jpg);
@@ -1034,6 +1188,16 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+@media only screen and (max-width: 414px) {
+    #ts-img-1 {
+        width: 100%;
+        padding-top: 100%;
+    }
+    #ts-img-2 {
+    width: 100%;
+    padding-top: 100%;
+}
 }
 
 #ts-img-2 {
@@ -1185,6 +1349,13 @@
     background-image: url(Works/BruxNoMore/rnd-11.jpg);
 }
 
+@media only screen and (max-width: 600px) {
+#bnm-persona_1 {
+    width: 300px;
+    height: 300px;
+}
+}
+
 #bnm-rnd-img-12 {
     background-size: contain;
     background-position: center;
@@ -1192,6 +1363,15 @@
     background-image: url(Works/BruxNoMore/rnd-12-1.png);
     padding-top: 40%;
 }
+
+@media only screen and (max-width: 414px) {
+#bnm-rnd-img-12 {
+    background-size: cover;
+    background-image: url(Works/BruxNoMore/rnd-12.png);
+    padding-top: 120%;
+}
+}
+
 
 #bnm-ic-img-1 {
     background-size: contain;
@@ -1376,6 +1556,13 @@
     padding-top: 40%;
 }
 
+@media only screen and (max-width: 414px) {
+    #bnm-app-img-4,#bnm-app-img-5,#bnm-app-img-6,#bnm-app-img-7 {
+        padding-top: 80%;
+    }
+}
+
+
 #color {
     color: #868686;
 }
@@ -1492,6 +1679,7 @@
     margin: 0.4%;
 }
 
+
 #miao-making-img-1 {
     background-size: cover;
     background-position: top;
@@ -1568,11 +1756,21 @@
     padding-top: 30%;
 }
 
+
 /*project X*/
 #px-img-1, #px-img-2, #px-img-3, #px-img-4, #px-img-5, #px-img-6, #px-img-7, #px-img-8,#px-img-9 {
     background-size: contain;
     padding-top: 32.53%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+@media only screen and (max-width: 414px) {
+    #px-img-1, #px-img-2, #px-img-3, #px-img-4, #px-img-5, #px-img-6, #px-img-7, #px-img-8,#px-img-9{
+        width: 100%;
+        padding-top: 100%;
+    }
+}
+
 #px-img-1 {
     background-image: url(Works/ProjectX/01.gif);
 }
