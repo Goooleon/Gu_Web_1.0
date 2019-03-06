@@ -146,9 +146,15 @@ h2 {
 
 /* Index Page */
 #change-color {
+    text-align: center;
     font-size: 3em;
     margin-bottom: 50px;
     color: #F25165;
+}
+@media only screen and (max-width: 414px) {
+#change-color {
+    text-align:left;
+}
 }
 
 #change-color:hover {

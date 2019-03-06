@@ -8,17 +8,10 @@ var yoff = 0.0;
   //canvas.parent('sketch-holder');
     
     
-function centerCanvas() {
-  var x = (windowWidth - width) / 2;
-  var y = (windowHeight - height) / 2;
+function setup() {
+  cnv = createCanvas(window.innerWidth-100, window.innerHeight-200);
   cnv.position(50,120);
     cnv.style('z-index', '-10');
-}
-
-function setup() {
-  cnv = createCanvas(windowWidth-100, windowHeight-200);
-  centerCanvas();
-    cnv.style = ""
 }
     
 function windowResized() {
