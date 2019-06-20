@@ -1,0 +1,167 @@
+::selection {
+    background-color: darkviolet;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: white;
+}
+
+#normallink{
+    color: deeppink;
+}
+
+h1 {
+    font-size: 4.5em;
+}
+
+
+h2 {
+    font-size: 3em;
+}
+
+#larger_font {
+    font-size: 2em;
+}
+
+h1, h2, h3, h4, p {
+    padding: 40px 20px 0 20px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#place-holder {
+    color: white;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 10px 0;
+    padding: 0;
+}
+
+
+.title {
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    display: block;
+    position: relative;
+    left: 10%;
+    margin-bottom: 300px;
+}
+
+
+.btm {
+    margin-bottom: 100px;
+}
+
+
+.underline {
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+.active {
+    color: blue;
+}
+
+.timeline {
+    position: absolute;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: fuchsia;;
+    width: 8px;
+    top:10px;
+    height: 100%;
+}
+
+.time {
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    border-radius: 30px;
+    border: solid 4px;
+    border-color: white;
+}
+
+#a {top: 0;}
+#b {top: 200px;}
+#c {top: 400px;}
+#d {top: 600px;}
+#e {top: 800px;}
+
+
+.activity {
+    position: relative;
+    width: 40%;
+    background-color: white;
+    padding: 10px;
+    -webkit-box-shadow: 2px 2px 26px -5px rgba(0,0,0,0.1);
+    -moz-box-shadow: 2px 2px 26px -5px rgba(0,0,0,0.1);
+    box-shadow: 2px 2px 26px -5px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    
+}
+
+#a1 {
+    top: 0;
+}
+
+.name {
+    margin: 0;
+    color: blue;
+}
+
+.date {
+    color: grey;
+    margin: 0;
+    font-size: 0.9em;
+}
+
+#a2 {
+    top:100px;
+}
+
+
+
+#box2 {
+    top: 20px;
+}
+
+.box {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 0;
+}
+
+
+
+.right {
+    float: right;
+}
+
+.dot_left {
+    float: left;
+    left: -14px;
+}
+
+
+
+.left {
+    float: left;
+}

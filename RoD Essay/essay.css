@@ -1,0 +1,137 @@
+::selection {
+    background-color: darkviolet;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.active {
+    color: blue;
+}
+
+a {
+    color: white;
+}
+
+#normallink{
+    color: deeppink;
+}
+
+h1 {
+    font-size: 4.5em;
+}
+
+p {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+#larger_font {
+    font-size: 2em;
+}
+
+h1, h2, h3, p {
+    padding: 40px 20px 0 20px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.title {
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    display: block;
+    position: relative;
+    left: 10%;
+    margin-bottom: 300px;;
+}
+
+
+
+.btm {
+    margin-bottom: 100px;
+}
+
+#changeText {
+    color: fuchsia;
+    background-color: blue;
+}
+
+#changeText_friends {
+    color: white;
+    background-color: black;
+}
+
+
+.underline {
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+
+.blur {
+   color: transparent;
+   text-shadow: 0 0 6px rgba(0,0,0,0.5);
+}
+
+.blur_w {
+   color: transparent;
+   text-shadow: 0 0 6px rgba(255,255,255,0.5);
+}
+
+
+#gu_love {
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 260px;
+    height: 310px;
+    background-image: url(resources/Gu.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+#gu_back {
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 260px;
+    height: 310px;
+    background-image: url(resources/Gu_back.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 100px 0 0 0 ;
+}
+
+#love {
+    font-weight: 900;
+    padding: 0 0 0 20px;
+    color: deeppink;
+}
+
+#welcome {
+    text-align: center;
+    padding: 0 20px 0 20px;
+    margin: 10px 0;
+}
+
+#keywords {
+    font-size: 1.2em;
+    padding: 0px 0px 0px 20px;
+    margin: 0;
+    text-align: center;
+}
+
+#video {
+    width: 75vw;
+    height: 40vw;
+}
